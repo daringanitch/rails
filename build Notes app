@@ -1,0 +1,12 @@
+Notes Rails app
+
+rails new Notes_app
+cd Notes_app
+bundle install
+rails  generate scaffold Note content:text user:sting
+rails db:migrate
+rails routes
+
+rails server
+
+http:/localhost:3000/notes
